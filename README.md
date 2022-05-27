@@ -1,4 +1,7 @@
 # java-webdriver-cucumber
+Andrii.Holvoko
+Hello my World
+Good Luck!
 
 Base framework for Java Webdriver automation with Cucumber
 
@@ -7,6 +10,8 @@ Base framework for Java Webdriver automation with Cucumber
 
 Hello World today is Sunday
 Nickolas Bell
+Hello World today is Sunday
+andrii.holovko
 Rea.Tabofunda
 Bohdan solod
 Ozzy.Inatullaev
