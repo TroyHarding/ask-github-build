@@ -1,8 +1,9 @@
-package StefDefs
-import cucumber.api.java.en.Given;
+package StepDefs;
+import static support.TestContext.getDriver;
 
 public class MyStepdefs {
-    @Given("I login to ASK as a teacher")
+    @cucumber.api.java.en.Given("I login to ASK as a teacher")
     public void iLoginToASKAsATeacher() {
+        getDriver().get("http://ask-m.portnov.com/#/login");
     }
 }
