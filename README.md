@@ -2,5 +2,5 @@
 
 Base framework for Java Webdriver automation with Cucumber
 
-Alex 
+Alex Kulagin
 
