@@ -1,7 +1,7 @@
 package StepDefs;
 
+import cucumber.api.java.en.And;
 
-import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.openqa.selenium.By;
@@ -45,4 +45,10 @@ public class MyStepdefs {
     public void iWaitForElementWithXpathToBePresent(String xpath) {
         new WebDriverWait(getDriver(), 10, 200).until(ExpectedConditions.presenceOfElementLocated(By.xpath(xpath)));
     }
+
+    @And("{string} messages will be displayed")
+    public void messagesWillBeDisplayed(String Error) {
+        assertThat(getDriver().findElement(By.tagName("mat-error")).getText()).isEqualTo(Error);
+    }
 }
+
