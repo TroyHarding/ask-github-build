@@ -33,8 +33,8 @@ public class MyStepdefs {
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//h5[contains(text(),'Users Management')]")));
         WebElement userManage = getDriver().findElement(By.xpath("//h5[contains(text(),'Users Management')]"));
         userManage.click();
-        Boolean grades1 = getDriver().findElement(By.cssSelector("mat-card")).isDisplayed();
-        assertThat(grades1).isTrue();
+        Boolean user1 = getDriver().findElement(By.cssSelector("mat-card")).isDisplayed();
+        assertThat(user1).isTrue();
     }
 
     @And("I click on Grades from Navigation menu")
