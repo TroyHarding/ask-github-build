@@ -4,7 +4,10 @@ Hello my World
 Good Luck!
 
 Base framework for Java Webdriver automation with Cucumber
+valeria
 
+Tanuja.Kharche
+Date : May 26, 2022
 
 #NAMES
 
@@ -15,4 +18,6 @@ andrii.holovko
 Rea.Tabofunda
 Bohdan solod
 Ozzy.Inatullaev
+Odina.M
+Dmitrii.Molochnykh
 Odina.M
