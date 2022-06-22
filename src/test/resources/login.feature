@@ -12,3 +12,4 @@ Feature: Login Page
      Given I open ASK page using url as "http://ask-m.portnov.com/#/login"
      When I enter email as "jasonjason0@omdiaco.com" and password as "user1234" and click Sign In
      And I click on Grades from Navigation menu
+
